@@ -97,27 +97,6 @@ You can access the deployed application here: [https://customerchurnprediction-j
 
 ---
 
-## File Structure
-customerchurnprediction/
-│
-├── app.py                     # Streamlit application script
-├── experiments.ipynb          # Jupyter Notebook for model training and experimentation
-├── requirements.txt           # Python dependencies
-├── dataset/
-│   └── Churn_Modelling.csv    # Dataset file
-├── models/                    # Saved model, scaler, and encoders
-│   ├── model.keras
-│   ├── scaler.pkl
-│   ├── onehot_encoder_geo.pkl
-│   └── label_encoder_gender.pkl
-├── logs/                      # TensorBoard logs (generated during training)
-│   └── fit/
-│       └── ...
-└── README.md                  # This file
-
-
----
-
 ## Setup and Installation ⚙️
 
 1.  **Clone the repository:**
